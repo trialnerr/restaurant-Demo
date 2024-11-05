@@ -47,10 +47,10 @@
         </ul>
       </nav>
     </header>
-    <main class="flex justify-center items-center h-[calc(100vh-8rem)]">
-      <section class=" ">
-        <span class="text-3xl">Welcome to Restaurant<span>
-            <h1 class="text-7xl text-center">Name</h1>
+    <main class="flex justify-center items-center h-[calc(100vh-12rem)]">
+      <section class="text-center bg-black bg-opacity-50 p-8 rounded-lg">
+      <span class="text-3xl block mb-4 text-white">Welcome to Restaurant</span>
+      <h1 class="text-7xl font-greatVibes text-orange-500">Name</h1>
       </section>
     </main>
     <div class="animate-zoomIn absolute top-0 left-0 right-0 bottom-0 -z-20 bg-cover"></div>
@@ -58,185 +58,169 @@
   </section>
 
   <section class="mt-24 px-24">
+
     <header>
-      <h3 class="text-center text-lg">Welcome</h3>
-      <h2 class="text-center text-6xl">Our Story</h2>
+      <h3 class="text-center text-lg text-orange-500 font-semibold">Welcome</h3>
+      <h2 class="text-center text-6xl text-white font-bold mt-4">Our Story</h2>
     </header>
 
     <section class="flex w-full mt-24 ">
-      <div class="p-4 mr-8 w-1/2">
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat, voluptate aliquam maxime aut, a
-          porro neque nam quia magni iure! Excepturi, ea illum!
+      <div class="p-4 mr-8 w-full md:w-1/2">
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat, voluptate aliquam
+          maxime aut, a porro neque nam quia magni iure! Excepturi, ea illum!</p>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat, voluptate aliquam
+          maxime aut, a porro neque nam quia magni iure! Excepturi, ea illum! Lorem ipsum dolor sit Lorem, ipsum dolor.
         </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat, voluptate aliquam maxime aut, a
-          porro neque nam quia magni iure! Excepturi, ea illum! Lorem ipsum dolor sit Lorem, ipsum dolor.
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat, voluptate aliquam maxime aut, a
-          porro neque nam quia magni iure! Excepturi, ea illum!
-        </p>
-        <a href="">OUR MENU</a>
-
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat, voluptate aliquam
+          maxime aut, a porro neque nam quia magni iure! Excepturi, ea illum!</p>
+        <a href="#menu"
+          class="text-tomato font-bold no-underline px-4 py-2 border-2 border-tomato rounded hover:bg-tomato hover:text-white transition-colors duration-300 mt-4 block w-full md:w-32 text-center">OUR
+          MENU</a>
       </div>
       <div class="w-1/2 ">
         <img class="rounded" src="./src/assets/bg-1.jpg" alt="">
       </div>
     </section>
-
   </section>
 
-  <section class="grid grid-cols-3 px-24 mt-24">
-    <section class="">
-      <span>Refreshing options</span>
-      <h2>Salads</h2>
-      <div>
-        <div>
-          <h4>Greek</h4>
-          <span>$12</span>
+  <section class="grid grid-cols-3 gap-8 px-24 mt-24" id="menu">
+    <section class="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <span class="text-orange-500 uppercase text-sm">Refreshing options</span>
+      <h2 class="text-2xl font-bold mb-4">Salads</h2>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Greek</h4>
+          <span class="text-orange-500">$12</span>
         </div>
-        <span>Fresh Salad with Feta Cheese</span>
+        <span class="text-gray-400">Fresh Salad with Feta Cheese</span>
       </div>
-      <div>
-        <div>
-          <h4>Caesar</h4>
-          <span>$10</span>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Caesar</h4>
+          <span class="text-orange-500">$10</span>
         </div>
-        <span>Caesar Salad with Croutons</span>
+        <span class="text-gray-400">Caesar Salad with Croutons</span>
       </div>
-      <div>
-        <div>
-          <h4>Waldorf</h4>
-          <span>$15</span>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Waldorf</h4>
+          <span class="text-orange-500">$15</span>
         </div>
-        <span>Waldorf Salad with Apples and Walnuts</span>
-      </div>
-      <div>
-        <div>
-          <h4>Waldorf</h4>
-          <span>$15</span>
-        </div>
-        <span>Waldorf Salad with Apples and Walnuts</span>
+        <span class="text-gray-400">Waldorf Salad with Apples and Walnuts</span>
       </div>
     </section>
-    <section>
-      <span>top rated dishes</span>
-      <h2>Meat options</h2>
-      <div>
-        <div>
-          <h4>Beef</h4>
-          <span>$20</span>
+    <section class="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <span class="text-orange-500 uppercase text-sm">Top rated dishes</span>
+      <h2 class="text-2xl font-bold mb-4">Meat options</h2>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Beef</h4>
+          <span class="text-orange-500">$20</span>
         </div>
-        <span>Beef Steak with Potatoes</span>
+        <span class="text-gray-400">Beef Steak with Potatoes</span>
       </div>
-      <div>
-        <div>
-          <h4>Chicken</h4>
-          <span>$18</span>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Chicken</h4>
+          <span class="text-orange-500">$18</span>
         </div>
-        <span>Chicken with Rice and Vegetables</span>
+        <span class="text-gray-400">Chicken with Rice and Vegetables</span>
       </div>
-      <div>
-        <div>
-          <h4>Pork</h4>
-          <span>$22</span>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Pork</h4>
+          <span class="text-orange-500">$22</span>
         </div>
-        <span>Pork Ribs with BBQ Sauce</span>
-      </div>
-      <div>
-        <div>
-          <h4>Pork</h4>
-          <span>$22</span>
-        </div>
-        <span>Pork Ribs with BBQ Sauce</span>
+        <span class="text-gray-400">Pork Ribs with BBQ Sauce</span>
       </div>
     </section>
-    <section>
-      <span>finger foods</span>
-      <h2>Sandwiches</h2>
-      <div>
-        <div>
-          <h4>Chicken Schnitzel</h4>
-          <span>$15</span>
+    <section class="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <span class="text-orange-500 uppercase text-sm">Finger foods</span>
+      <h2 class="text-2xl font-bold mb-4">Sandwiches</h2>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Chicken Schnitzel</h4>
+          <span class="text-orange-500">$15</span>
         </div>
-        <span>Chicken Schnitzel with Lettuce and Tomato</span>
+        <span class="text-gray-400">Chicken Schnitzel with Lettuce and Tomato</span>
       </div>
-      <div>
-        <div>
-          <h4>Beef Burger</h4>
-          <span>$12</span>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Beef Burger</h4>
+          <span class="text-orange-500">$12</span>
         </div>
-        <span>Beef Burger with Cheese and Pickles</span>
+        <span class="text-gray-400">Beef Burger with Cheese and Pickles</span>
       </div>
-      <div>
-        <div>
-          <h4>Fish Sandwich</h4>
-          <span>$18</span>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Fish Sandwich</h4>
+          <span class="text-orange-500">$18</span>
         </div>
-        <span>Fish Sandwich with Lettuce and Tartar Sauce</span>
+        <span class="text-gray-400">Fish Sandwich with Lettuce and Tartar Sauce</span>
       </div>
-      <div>
-        <div>
-          <h4>Veggie Sandwich</h4>
-          <span>$10</span>
+      <div class="mb-4">
+        <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold">Veggie Sandwich</h4>
+          <span class="text-orange-500">$10</span>
         </div>
-        <span>Veggie Sandwich with Hummus and Cucumbers</span>
+        <span class="text-gray-400">Veggie Sandwich with Hummus and Cucumbers</span>
       </div>
     </section>
   </section>
 
-
-
-
-  <section>
-    <span>Book a table</span>
-    <h2>Make a reservation</h2>
-    <form>
-      <div>
-        <label for="date">Date</label>
-        <input type="date" id="date" name="date">
+  <section class="mt-24 px-24">
+    <span class="text-center text-lg text-orange-500 font-semibold block">Book a table</span>
+    <h2 class="text-center text-4xl text-white font-bold mt-4">Make a reservation</h2>
+    <form class="mt-8 max-w-lg mx-auto bg-gray-800 p-8 rounded-lg shadow-lg">
+      <div class="mb-4">
+        <label for="date" class="block text-white mb-2">Date</label>
+        <input type="date" id="date" name="date" class="w-full p-2 rounded bg-gray-700 text-white">
       </div>
-      <div>
-        <label for="time">Time</label>
-        <input type="time" id="time" name="time">
+      <div class="mb-4">
+        <label for="time" class="block text-white mb-2">Time</label>
+        <input type="time" id="time" name="time" class="w-full p-2 rounded bg-gray-700 text-white">
       </div>
-      <div>
-        <label for="party">Party Size</label>
-        <input type="number" id="party" name="party">
+      <div class="mb-4">
+        <label for="party" class="block text-white mb-2">Party Size</label>
+        <input type="number" id="party" name="party" class="w-full p-2 rounded bg-gray-700 text-white">
       </div>
-      <button>Reserve Now</button>
+      <button
+        class="w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700 transition-colors duration-300">Reserve
+        Now</button>
     </form>
-    <a href="">Find us on Yelp</a>
+    <div class="text-center mt-4">
+      <a href="" class="text-orange-500 hover:underline">Find us on Yelp</a>
+    </div>
   </section>
 
-  <footer>
-    <section>
+  <footer class="bg-gray-900 text-white py-12 mt-24">
+    <section class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-24">
       <div>
-        <span>Working Hours</span>
-        <span>Mon - Fri: 9am - 10pm</span>
-        <span>Sat - Sun: 9am - 11pm</span>
+        <h3 class="text-lg font-semibold mb-4">Working Hours</h3>
+        <p class="mb-2">Mon - Fri: 9am - 10pm</p>
+        <p>Sat - Sun: 9am - 11pm</p>
       </div>
       <div>
-        <span>Address</span>
-        <span> <i class="fas fa-map-marker-alt"></i> 123 Street, Providence, RI, 00011</span>
-        <span> <i class="fas fa-phone"></i> (401) 123 4567 </span>
-        <span> <i class="fas fa-envelope"></i> info@restaurant.com </span>
+        <h3 class="text-lg font-semibold mb-4">Address</h3>
+        <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i>123 Street, Providence, RI, 00011</p>
+        <p class="mb-2"><i class="fas fa-phone mr-2"></i>(401) 123 4567</p>
+        <p><i class="fas fa-envelope mr-2"></i>info@restaurant.com</p>
       </div>
       <div>
-        <span>Follow Us</span>
-        <!-- add facebook and insta inside links -->
-        <div>
-          <a href="">
+        <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="text-white hover:text-orange-500 transition-colors duration-300">
             <i class="fab fa-facebook-f"></i>
           </a>
-          <a href="">
+          <a href="#" class="text-white hover:text-orange-500 transition-colors duration-300">
             <i class="fab fa-instagram"></i>
           </a>
         </div>
-
       </div>
     </section>
-    <span>© 2024 Restaurant. All rights reserved</span>
-
+    <div class="text-center mt-8">
+      <span>© 2024 Restaurant. All rights reserved</span>
+    </div>
   </footer>
 
   <section class="flex justify-evenly fixed bottom-0 left-0 w-full bg-black opacity-70 py-2.5 z-30">
